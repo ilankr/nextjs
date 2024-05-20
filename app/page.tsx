@@ -23,13 +23,31 @@ There is really nothing on this list that I don't enjoy doing.
 <hr>
 <h3>Item 2</h3>
 
-<p>What I'll need to learn to work
-at Vercel is front end, JavaScript development. This
+<p>What I'll need to learn to work at Vercel is front end, JavaScript development. This
 is not an area that I focused on before, and clearly, I will need to improve in
 it so I can do a great job here.</p>
-
 <hr>
-    
+
+<h3>Item 4</h3>
+
+<p>It is not clear if the question is about when to use Vercel in general, or when to choose between these
+components. I'm going to answer the second question.</p>
+
+<p>Edge function should be used when we need fast, dynamic functions
+that run closer to the user location. For example, OAuth callbacks, responding
+to webhook requests.</p>
+
+<p>Serverless functions require full node.js runtime and can be
+scaled up and down. They should be used to execute server-side logic like form
+submission parsing and response, database queries, or serving as API endpoint.</p>
+
+<p>Edge Middleware is a function
+that operates at the edge of the network and is invoked before a request hits
+the actual page. It is useful for managing authentication, geo and language routing,
+A/B testing, etc.</p>
+
+</hr>
+  
     </main>
   );
 }
