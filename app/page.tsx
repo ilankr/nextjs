@@ -27,7 +27,6 @@ There is really nothing on this list that I don't enjoy doing.
 at Vercel is front end, JavaScript development. This
 is not an area that I focused on before, and clearly, I will need to improve in
 it so I can do a great job here.</p>
-
 <hr>
     
     </main>
