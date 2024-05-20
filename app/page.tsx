@@ -17,6 +17,14 @@ export default function Home() {
       </ul>
       <p>5 least favorite support tasks</p>
       There is really nothing on this list that I don&apos;t enjoy doing.
+      <p>------------</p>
+      <h3>Item 2</h3>
+      <p>What I&apos;ll need to learn to work
+        at Vercel is front end, JavaScript development. This
+        is not an area that I focused on before, and clearly, I will need to improve in
+        it so I can do a great job here.</p>
+      <p>------------</p>
+      
     </main>
   );
 }
