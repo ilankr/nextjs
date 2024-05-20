@@ -20,6 +20,7 @@ export default function Home() {
 
 <p>5 least favorite support tasks</p>
 There is really nothing on this list that I don't enjoy doing.
+
 <hr>
 <h3>Item 2</h3>
 
@@ -29,7 +30,27 @@ is not an area that I focused on before, and clearly, I will need to improve in
 it so I can do a great job here.</p>
 
 <hr>
-    
+<h3>Item 3</h3>
+
+<p>At Harness I was working with a banking customer facing
+failed deployment and was not able to understand why (this was a very common
+support issue). Since this was a P1 issue, we had a call going to work on this.
+Looking at our agent logs I found the root issue and showed the customer how to
+fix it. The customer immediately tried my suggestion, and the deployment was
+completed successfully. Once it was fixed, I showed the customer how I was able
+to find the problem so in the future they can troubleshoot themselves and solve
+issues faster.</p>
+
+<p>Another example, At Aisera I worked with a large national retail store chain.
+They felt that they were not getting value from the product. Working together
+with the dedicated CSE of the account we helped figure out what features they
+were not using to get value and walked the customer through configuring them. This
+allowed us to turn a churn risk customer into a happy, renewing one.</p>
+
+<hr>
+
+
+  
     </main>
   );
 }
