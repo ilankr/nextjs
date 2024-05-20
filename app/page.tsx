@@ -16,7 +16,7 @@ export default function Home() {
         <li>Analyze hundreds of support tickets to spot trends the product team can use</li>
       </ul>
       <p>5 least favorite support tasks</p>
-      
+      There is really nothing on this list that I don&apos;t enjoy doing.
     </main>
   );
 }
