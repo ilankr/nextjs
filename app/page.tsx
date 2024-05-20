@@ -6,7 +6,16 @@ export default function Home() {
     
       <p>this is text text</p>
       <h2>These are notes from Ilan Krayn for Skills Assessment</h2>
-      
-          </main>
+      <h3>Item 1</h3>
+      <p>5 favorite support tasks</p>
+      <ul>
+        <li>Manage a support team</li>
+        <li>Find and recruit teammates for the support team </li>
+        <li>Help train and onboard new support teammates</li>
+        <li>Work with the product team to develop a newfeature based on feedback from customers</li>
+        <li>Analyze hundreds of support tickets to spot trends the product team can use</li>
+      </ul>
+
+    </main>
   );
 }
