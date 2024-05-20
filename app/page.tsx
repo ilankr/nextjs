@@ -15,7 +15,11 @@ export default function Home() {
         <li>Work with the product team to develop a newfeature based on feedback from customers</li>
         <li>Analyze hundreds of support tickets to spot trends the product team can use</li>
       </ul>
+      <p>5 least favorite support tasks</p>
+      <p>There is really nothing on this list that I don't enjoy doing.</p>
 
+
+      
     </main>
   );
 }
