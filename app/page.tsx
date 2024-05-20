@@ -17,6 +17,8 @@ export default function Home() {
       </ul>
       <p>5 least favorite support tasks</p>
       There is really nothing on this list that I don&apos;t enjoy doing.
+      <hr>
+      <h3>Item 2</h3>
     </main>
   );
 }
