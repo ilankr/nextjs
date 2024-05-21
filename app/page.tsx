@@ -67,7 +67,30 @@ export default function Home() {
       <p>If it easier for you, I&apos;m happy to jump on a zoom call to shorten communication round trip. I look forward to your answers or to meeting you on zoom,</p>
       <p>Ilan</p>
       <p>------------</p>
-
+      <h3>Item 7</h3>
+      <p>Hello customer,</p>
+      <p>This is a good question. There are several ways to redirect and choosing the right one can be tricky. </p>
+      <p>I&apos;m guessing that you are looking do a permanent redirect so
+      any person hitting the /blog endpoint will be redirected to the correct web domain
+      for the blog (like <a href="https://blog.yourdomain.com/">https://blog.<i>yourdomain</i>.com/</a>).</p>
+      <p>Since this is a permanent redirect, I recommend that you use
+        Vercel edge configuration to make it happen. This is
+        the fastest, and least user impacting method. To do so:</p>
+      <p>If you are using Vercel native Next.js framework, edit the file <i>next.config.js</i>. Look for the <i>async redirects</i> function, and add to it. We have a sample
+        code and more information in our <a href="https://vercel.com/docs/edge-network/redirects#configuration-redirects">documentation</a>.
+      </p>     
+      <p>If you are using a different framework, redirect configuration is in the vercel.json file located in
+        the root of your application. We have a sample code and more information in our <a href="https://vercel.com/docs/projects/project-configuration#redirects">documentation</a>.
+      </p>
+      <p>I hope that this is the information you are looking for. If
+      I made a wrong assumption about what you are asking, and provided the wrong
+      answer, or if you need more information, please write back to let me know. If I got it right, I&apos;d appreciate it if you
+      tell me so I can mark this as solved. </p> 
+      <p>I look forward to hearing from you. </p>
+      <p>Ilan</p>
+      <p>------------</p>
+      
+      </div>
       
     </main>
   );
