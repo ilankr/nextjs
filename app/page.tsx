@@ -92,20 +92,20 @@ export default function Home() {
       <p>------------</p>
       <h3>Item 8</h3>
       <p>Hi customer,</p>
-      <p>Search engines crawlers check the <code>X-Robots-Tag</code> in the HTTP
-      header before indexing a page. If it is set to <code>noindex</code>, the search
+      <p>Search engines crawlers check the <i>X-Robots-Tag</i> in the HTTP
+      header before indexing a page. If it is set to <i>noindex</i>, the search
       engine will not index the page. To prevent your project from being indexed, add
-      this custom header to <code>next.config.js</code> for Next.js projects, or in <code>vercel.json</code> for all other projects.</p>
+      this custom header to <i>next.config.js</i> for Next.js projects, or in <i>vercel.json</i> for all other projects.</p>
       <p>Once your header is set, you can test your project using the command:</p>
-      <p><code>curl -I &lt;DEPLOYMENT_URL&gt;</code></p>
+      <p><i>curl -I &lt;DEPLOYMENT_URL&gt;</i></p>
       <p>It will return all the URL headers, and you can confirm that
-      <code>X-Robots-Tag: noindex</code> is set correctly.</p>
+      <i>X-Robots-Tag: noindex</i> is set correctly.</p>
       <br/>
-      <p>On a side note, Vercel sets the <code>X-Robots-Tag</code> HTTP header to <code>noindex</code>
+      <p>On a side note, Vercel sets the <i>X-Robots-Tag</i> HTTP header to <i>noindex</i>
       for all Preview Deployments so that search engines do not accidentally index
       the Preview URLs. If you use the non-common <a
       href="https://vercel.com/docs/projects/domains/assign-domain-to-a-git-branch">custom
-      domain is assigned to a Git branch</a>, this behavior is prevented and the <code>X-Robots-Tag</code> header is not
+      domain is assigned to a Git branch</a>, this behavior is prevented and the <i>X-Robots-Tag</i> header is not
       set.</p>
       <p>As always, I would love to hear back if you have any more questions. We are here to help!</p>
       <br/>
