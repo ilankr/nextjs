@@ -111,8 +111,25 @@ export default function Home() {
       <br/>
       <p>Ilan</p>
       <p>------------</p>
-      
-            
+      <h3>Item 9</h3>
+      <p>Matthew Sweeney and I spoke about this during my interview.</p>
+      <p>My point was that moving from service
+        based web environment like Apache, NginX, etc.
+        to functions based environment like Vercel, or Lambda
+        requires new way of thinking. The design should be event driven, and all
+        connections must be initiated and destroyed in each function.</p>
+      <p>Another common issue results from using traditional databases like
+        MySQL or PostgreSQL and using traditional connection methods like ODBC. These stateful
+        connection protocols cause heavy load on the database server, and moving to
+        serverless function causes too many connections and a big load on the DB server.</p> 
+      <p>A potential solution is to move to http-based database connections.</p>
+      <p>------------</p>
+      <h3>Item 10</h3>
+      <p>This is a good familiarization exercise. One suggestion is
+        to have a look at the logs area so a support person can get a feel for what it
+        looks like and how robust the filtering is.</p>
+      <p>&nbsp;</p>
+      <p>Thank you for your time.</p>   
     </main>
   );
 }
